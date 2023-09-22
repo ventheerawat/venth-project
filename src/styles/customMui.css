@@ -1,0 +1,75 @@
+.w-100 {
+  width: 100%;
+}
+
+.note-card-link {
+  text-decoration: none;
+  color: #434d5b;
+  text-transform: capitalize;
+}
+
+.link-profile {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.note-card {
+  color: #ffffff;
+  padding: 18px;
+  border: 1px solid #52546b;
+  border-radius: 18px;
+  min-height: 150px;
+  transition: all 0.15s ease-in-out;
+}
+
+.note-card:hover {
+  background: rgb(220, 220, 226);
+  background: linear-gradient(341deg, #191b28 0%, #2e2d55 100%);
+  border-color: #9194b2;
+  box-shadow: 0px 6px 24px 2px #392e42;
+  transform: scale(1.02);
+
+  transition: all 0.15s ease-in-out;
+}
+
+.align-right {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.card-comment {
+  border: 1px solid #3b4040;
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.Login-page {
+  top: 10rem;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_login {
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 18px;
+  border-radius: 35px;
+  border: none;
+  background-color: #673ab7;
+  color: #ffffff;
+  width: 150px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn_login:hover {
+  box-shadow: 0px 6px 24px 2px #673ab7;
+  transform: scale(1.05);
+  transition: all 0.15s ease-in-out;
+}
